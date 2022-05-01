@@ -1,6 +1,14 @@
 # 4/30 Node.js 上課內容
 
 ## 上課內容
+* 終端機指令
+* git 指令
+* git 分支
+* github平台運用
+* git 一般業界實務
+* Markdown 語法
+
+
 #### 終端機基本指令(window)
 
 > **pwd**    顯示目前工作的資料夾 
@@ -26,7 +34,7 @@
 >**code 資料夾名稱**   用vscode開啟該資料夾 (退回上一層)
 
 
-#### git 語法
+#### git 
 
 > **git --version**    git的版本
 
