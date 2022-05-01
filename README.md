@@ -24,3 +24,36 @@
 >**ctrl+l**     讓畫面變乾淨
 
 >**code 資料夾名稱**   用vscode開啟該資料夾 (退回上一層)
+
+
+#### git 語法
+
+> **git --version**    git的版本
+
+> **git init**     將資料夾 新增.git 文件  用來追蹤資料的改變
+
+> **git status**  狀態(看工作目錄 和暫存區域)   
+
+> **git log**  歷史 (看 commit)  
+
+> **git add**  加到staging area
+
+> **git commit -m "原因"**  提交入版本庫   
+
+> **git rm --cached "資料名"**  從暫存區移開(反悔加入，但保留檔案)  
+
+> **git rm -f  資料名**  反悔加入暫存區，而且真的刪除檔案
+
+> **git restore --staged 資料名**  從暫存區域回到工作目錄 
+
+> **git restore 資料名**  捨棄在工作目錄的改變(包括修改與刪除)
+
+#### 關於 git 分支
+
+> **git branch**    查看分支
+
+> **git branch 分支名**      創建新分支
+
+> **git switch 分支名**  改到該分支   
+
+> **git merge 分支名**  合併(要先 add  commit 才能merge)
